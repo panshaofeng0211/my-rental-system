@@ -1,14 +1,15 @@
 {
   "name": "my-rental-system",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Backend service for the rental management system",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["rental", "backend", "oracle"],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.2",
     "oracledb": "^6.7.1"
